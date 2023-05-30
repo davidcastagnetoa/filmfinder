@@ -4,7 +4,9 @@
   "description": "A web-based movie discovery application designed to recommend random films based on genre selection. Users will have the flexibility to choose from an array of genres, as well as the capability to like or dislike a film in order to receive further suggestions. This project is developed as part of Codecademy's Backend Engineering curriculum",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "David Castagneto A.",
