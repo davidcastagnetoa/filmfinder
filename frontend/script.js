@@ -1,4 +1,6 @@
-const backendBaseUrl = "http://localhost:3000"
+// const backendBaseUrl = "http://localhost:3000"
+// Remember, your server is host in render.com
+const backendBaseUrl = "https://filmfinder-backend.onrender.com"
 const playBtn = document.getElementById("playBtn");
 
 const getGenres = async () => {
