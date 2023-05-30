@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A web-based movie discovery application designed to recommend random films based on genre selection. Users will have the flexibility to choose from an array of genres, as well as the capability to like or dislike a film in order to receive further suggestions. This project is developed as part of Codecademy's Backend Engineering curriculum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Castagneto A.",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.11"
+  }
+}
